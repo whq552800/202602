@@ -1,21 +1,31 @@
-# Childhood LRI Development-Conditioned Typology Analysis
+# Childhood LRI Development-Year Peer Benchmarking
 
-This repository contains the code and package-local analysis files used to reproduce the supplementary tables and figures for the childhood lower respiratory infection (LRI) development-conditioned observed/excess typology analysis, 1990-2023.
+This repository provides the public code and machine-readable source-data package
+for the manuscript:
 
-The repository is organised for peer-review audit. It focuses on rebuilding the submitted supplementary materials from the included analysis-ready files. It is not a causal attribution pipeline.
+**Development-year peer benchmarking of childhood lower respiratory infection
+burden across 203 countries and territories, 1990-2023**
 
-## Interpretation Boundary
+The current submitted machine-readable data package is:
 
-The expected burden is an SDI-year model-based benchmark referent. It should not be interpreted as:
+```text
+revision_v2_machine_readable_source_data_20260611.zip
+```
 
-- a causal counterfactual
-- a frontier minimum
-- an avoidable or preventable burden estimate
-- an attributable burden estimate
+SHA256:
 
-Contextual residual fingerprints are descriptive post-classification profiles for hypothesis generation. They should not be interpreted as causal drivers or ranked attributable contributors.
+```text
+EA2817860E47E9C227D40064348F635D50A34109B0EEDA9D14A6A44312D0FC35
+```
 
-## Repository Structure
+## Scientific Scope
+
+The expected burden is an SDI-year model-based benchmark referent. It is used to
+separate high observed burden from benchmark-relative excess burden. Contextual
+domains are descriptive post-classification profile signals and are not used as
+causal attribution estimates.
+
+## Repository Contents
 
 ```text
 .
@@ -28,96 +38,85 @@ Contextual residual fingerprints are descriptive post-classification profiles fo
 │   ├── build_revision_v1_package.py
 │   └── validate_package.py
 ├── data/
-│   ├── analysis/
-│   ├── intermediate/
-│   ├── original_inputs/
-│   ├── tables/
-│   └── supplement_reordered/
-├── figures/
-│   └── supplement/
-├── README.md
+│   └── analysis/
+├── figure/
+│   ├── manuscript/
+│   └── SI/
+├── panel0_1990_2019_direct_meteo_GBDPM_HAP_lui.csv
 ├── requirements.txt
-└── .gitignore
+├── revision_v2_machine_readable_source_data_20260611.zip
+└── README.md
 ```
 
-## Directory Guide
+The `code/` folder contains the revision-build and validation scripts used in the
+local analysis environment. The submitted machine-readable tables are packaged in
+the zip file above. The `figure/` folder contains the final manuscript figures
+and supplementary figure files uploaded for review.
 
-- `code/`: portable Python scripts. Paths are resolved relative to the repository root.
-- `data/analysis/`: analysis-ready country-year files and benchmark-model outputs used by the robustness checks and supplement builders.
-- `data/intermediate/`: neutral-named pathway intermediate files used to rebuild Supplementary Tables S6-S8.
-- `data/original_inputs/`: WDI and WHO GHO extracts used for the 2018-2023 contextual-window sensitivity.
-- `data/tables/`: cleaned source tables used by `build_reordered_supplement_v2.py`. Some filenames preserve historical working names and are not final supplementary table numbers.
-- `data/supplement_reordered/`: final machine-readable Supplementary Tables S1-S22.
-- `figures/supplement/`: generated Supplementary Figures S1-S3.
+## Machine-Readable Source Data
 
-## Quick Start
+The zip archive contains 39 files:
 
-Install dependencies:
+- 26 source-data CSV files under `machine_readable_source_data/`
+- 9 JAMA supplementary table CSV files under `supplementary_tables/`
+- `figure_source_data_revision_v2_20260611.xlsx`
+- `data_dictionary.csv`
+- `README_machine_readable_source_data_20260611.md`
+- `MANIFEST_revision_v2_source_data_20260611.json`
 
-```bash
-python -m pip install -r requirements.txt
-```
+The archive passed ZIP integrity validation (`testzip = None`) after upload.
 
-Rebuild supplementary tables, supplementary figures, and validation outputs:
+## Supplementary Tables
 
-```bash
-python code/rebuild_outputs.py
-```
+The JAMA supplementary table files in the archive are:
 
-On Windows PowerShell, the equivalent command is:
+- `Table_S1_data_sources_indicators.csv`
+- `Table_S2_expected_model_validation.csv`
+- `Table_S3_annual_burden_profile_counts_2000_2023.csv`
+- `Table_S4_full_2000_2023_transition_matrix.csv`
+- `Table_S5_contextual_domain_definitions.csv`
+- `Table_S6_country_level_contextual_lag_matrix_2000_2023.csv`
+- `Table_S7_endpoint_contextual_domain_frequency_by_profile.csv`
+- `Table_S8_age_boundary_sensitivity.csv`
+- `Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv`
+
+Supplementary Table S6 is the full country-level list referenced by the main-text
+Table 1 footnote. It contains 203 countries and territories and includes the 2000
+and 2023 profiles, transition pathway, contextual lag-domain values, dominant
+contextual lag domain, and positive lag domains.
+
+## Key Source-Data Files
+
+The `machine_readable_source_data/` folder in the zip includes the country-year
+benchmark panel, 2023 profile membership, 2000-2023 transition matrices,
+benchmark-residual decomposition files, contextual-domain residual files,
+pathogen mortality profile files, model validation results, and robustness or
+sensitivity summaries.
+
+## Figure Files
+
+The `figure/manuscript/` folder contains the four main manuscript figure PNG
+files and the editable Illustrator file used for final layout. The `figure/SI/`
+folder contains Supplementary Figures S1-S11 in PNG and PDF formats.
+
+## How To Inspect The Data Package
+
+Unzip the source-data package and read the manifest and data dictionary first:
 
 ```powershell
-python code\rebuild_outputs.py
+Expand-Archive .\revision_v2_machine_readable_source_data_20260611.zip .\revision_v2_machine_readable_source_data_20260611
 ```
 
-## Expected Outputs
+Then open:
 
-A successful rebuild should produce or refresh:
-
-- `data/supplement_reordered/table_s1_*.csv` through `table_s22_*.csv`
-- `figures/supplement/supplementary_figure_s1_*.png` through `supplementary_figure_s3_*.png`
-- package validation metadata and manifest files, if the optional output directories are present
-
-If the formal supplementary appendix DOCX is present in a local review package and is locked by Word, `rebuild_outputs.py` writes a rebuild proof to `validation/rebuild_check/`.
-
-## Main Scripts
-
-- `code/config.py`: central path configuration.
-- `code/rebuild_outputs.py`: one-command rebuild of derived outputs.
-- `code/build_reordered_supplement_v2.py`: rebuilds the reordered Supplementary Appendix and machine-readable Supplementary Tables S1-S22 when the DOCX output directory is available.
-- `code/build_robustness_supplement_s19_s22.py`: rebuilds robustness Tables S19-S22.
-- `code/build_supplementary_figures.py`: rebuilds Supplementary Figures S1-S3.
-- `code/build_revision_v1_package.py`: refreshes package validation metadata, manifest, and zip archive in the full local review package.
-- `code/validate_package.py`: checks DOCX files as valid OOXML zip packages in the full local review package.
-
-## Robustness Analyses Implemented
-
-The included code and data support:
-
-- Duan smearing-corrected expected-rate sensitivity.
-- 2000-anchored fixed-threshold sensitivity.
-- Small-population exclusion sensitivity using available under-5 population-at-risk.
-- Harmonised 2018-2023 contextual-window sensitivity.
-- Threshold and excess-rule sensitivity.
-- Profile contrast stability.
-- Expected-burden model validation.
-- Population-weighted WLS sensitivity.
-- Age-boundary and cross-age overlap summaries.
-
-## Analyses Not Implemented Or Claimed
-
-This repository does not estimate:
-
-- GBD super-region fixed-effect sensitivity
-- Moran's I spatial-autocorrelation diagnostics
-- Bayesian spatial models
-- posterior exceedance classification
-- prediction-interval classification
-
-These analyses were not performed because the revision package did not include posterior draws, a documented GBD super-region hierarchy, or country geometry/centroid crosswalks.
+```text
+revision_v2_machine_readable_source_data_20260611\MANIFEST_revision_v2_source_data_20260611.json
+revision_v2_machine_readable_source_data_20260611\data_dictionary.csv
+```
 
 ## Data Source Notes
 
-The included files are analysis-ready and derived files used for reproducibility of the submitted supplement. Original source datasets should be obtained from the data providers under their own access and licensing terms, including IHME/GBD, World Bank WDI, WHO GHO, ERA5, WorldPop, and Natural Earth.
-
-Supplementary Table S1 documents data sources, variable definitions, source fields, and processing rules.
+The included files are analysis-ready derived files used for reproducibility of
+the submitted supplement and figures. Original source datasets should be obtained
+from the data providers under their own access and licensing terms, including
+IHME/GBD, World Bank WDI, WHO GHO, ERA5, WorldPop, and Natural Earth.
