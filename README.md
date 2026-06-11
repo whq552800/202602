@@ -41,7 +41,7 @@ causal attribution estimates.
 ```
 
 The `table/` folder contains the submitted machine-readable source tables and
-JAMA supplementary table CSV files. The `figure/` folder contains the final
+supplementary table CSV files. The `figure/` folder contains the final
 manuscript and supplementary figure files uploaded for review. The `code/` folder
 contains revision-build scripts and a lightweight validation script for the
 public package.
@@ -51,13 +51,13 @@ public package.
 The public table folder contains:
 
 - 26 source-data CSV files under `table/machine_readable_source_data/`
-- 9 JAMA supplementary table CSV files under `table/supplementary_tables/`
+- 9  supplementary table CSV files under `table/supplementary_tables/`
 - `table/figure_source_data_revision_v2_20260611.xlsx`
 - `table/data_dictionary.csv`
 
 ## Supplementary Tables
 
-The JAMA supplementary table files are:
+The  supplementary table files are:
 
 - `Table_S1_data_sources_indicators.csv`
 - `Table_S2_expected_model_validation.csv`
