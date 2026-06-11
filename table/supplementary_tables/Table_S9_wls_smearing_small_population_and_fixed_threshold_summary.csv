@@ -1,9 +1,0 @@
-﻿Robustness check,Specification,Primary statistic,Secondary statistic 1,Secondary statistic 2,Secondary statistic 3,Notes
-Expected-burden validation,5-fold country-held-out CV,0.869,4187.687,2982.528,42.306,All years; countries held out
-Expected-burden validation,"Train 1990-2018, predict 2019-2023",0.754,2792.013,2054.636,42.316,1990-2018 -> 2019-2023
-Population-weighted WLS,main_ols_vs_population_weighted_wls,0.783,18,18,,Main-only ISO3: BOL;IND;NAM;NGA;TLS
-Duan smearing retransformation,Duan smearing-corrected retransformation sensitivity,0.826,19,19,,smearing multiplier=1.1264
-2000-anchored fixed threshold,year 2000,43.0,68,68,,Counts use 2000 thresholds
-2000-anchored fixed threshold,year 2023,1.0,1,31,,Counts use 2000 thresholds
-Small-population exclusion,"under-5 population at risk <500,000 excluded",0.25,,,,Jaccard with primary Double-high membership
-Small-population exclusion,"under-5 population at risk <1,000,000 excluded",0.208,,,,Jaccard with primary Double-high membership

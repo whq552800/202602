@@ -1,8 +1,0 @@
-﻿age_group,age_label,age_role,n_high_observed,n_high_observed_high_excess,share_high_observed_also_high_excess,country_heldout_spearman,time_heldout_spearman,structural_n,structural_hap_pm_mean,structural_sdi_mean,high_excess_other_n,high_excess_other_hap_pm_mean,high_excess_other_sdi_mean,age_group_b,overlap_with_under5_double_high,jaccard_with_under5
-u5,Under 5 years,Primary childhood outcome,68,23,0.338,0.869,0.754,45,258.8,0.44,16,64.9,0.703,u5,23,1.0
-5_14,5-14 years,Granular child/adolescent boundary,68,29,0.426,0.802,0.744,39,256.0,0.424,15,94.0,0.678,5_14,10,0.238095238095238
-15_49,15-49 years,Younger-adult boundary,68,39,0.574,0.782,0.764,29,263.3,0.413,19,68.7,0.683,15_49,10,0.1923076923076923
-50_69,50-69 years,Older-adult transition boundary,68,41,0.603,0.811,0.792,27,271.1,0.388,20,61.1,0.693,50_69,10,0.1851851851851851
-5_69,5-69 years,Broad non-under-5 boundary,68,44,0.647,0.686,0.65,24,246.0,0.431,24,74.6,0.69,5_69,7,0.1166666666666666
-70p,70+ years,Older-adult vulnerability outcome,68,41,0.603,0.769,0.758,27,273.5,0.386,19,65.9,0.69,70p,12,0.2307692307692307
-total,All ages,Context outcome,68,31,0.456,0.847,0.744,37,269.1,0.404,19,50.9,0.698,total,11,0.2558139534883721

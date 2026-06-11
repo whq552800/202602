@@ -1,4 +1,0 @@
-﻿statistic,value,number_of_locations,notes
-Spearman SDI change vs expected-benchmark decline,0.8489157055573512,130,p=2.95e-37
-Spearman SDI change vs residual-excess decline,0.40750696384276286,130,p=1.49e-06
-Spearman expected-benchmark decline vs residual-excess decline,0.5922380477679607,130,p=1.16e-13
