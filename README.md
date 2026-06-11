@@ -1,7 +1,7 @@
 # Childhood LRI Development-Year Peer Benchmarking
 
-This repository provides the public tables, figure source data, and figure files
-for the manuscript:
+This repository provides the public machine-readable table package for the
+manuscript:
 
 **Development-year peer benchmarking of childhood lower respiratory infection
 burden across 203 countries and territories, 1990-2023**
@@ -17,11 +17,6 @@ causal attribution estimates.
 
 ```text
 .
-??? data/
-?   ??? analysis/
-??? figure/
-?   ??? manuscript/
-?   ??? SI/
 ??? table/
 ?   ??? machine_readable_source_data/
 ?   ??? supplementary_tables/
@@ -32,9 +27,8 @@ causal attribution estimates.
 ??? README.md
 ```
 
-The `table/` folder contains the submitted machine-readable source tables and
-JAMA supplementary table CSV files. The `figure/` folder contains the final
-manuscript and supplementary figure files uploaded for review.
+The previous compressed source-data archive has been replaced with directly
+browsable files under `table/`.
 
 ## Machine-Readable Tables
 
@@ -71,12 +65,6 @@ benchmark panel, 2023 profile membership, 2000-2023 transition matrices,
 benchmark-residual decomposition files, contextual-domain residual files,
 pathogen mortality profile files, model validation results, and robustness or
 sensitivity summaries.
-
-## Figure Files
-
-The `figure/manuscript/` folder contains the four main manuscript figure PNG
-files and the editable Illustrator file used for final layout. The `figure/SI/`
-folder contains Supplementary Figures S1-S11 in PNG and PDF formats.
 
 ## Data Source Notes
 
