@@ -1,0 +1,204 @@
+﻿location_name,iso3,dominant_contextual_lag_domain,dominant_delta_z,has_positive_lag,number_of_positive_lag_domains,profile_2023,transition_pathway
+Afghanistan,AFG,HIV/TB,0.2820139645061495,True,1,Structural high,Double-high -> Structural high
+Angola,AGO,HIV/TB,0.8365861384231491,True,2,Neither,Double-high -> Neither
+Albania,ALB,No positive contextual lag,0.0,False,0,Neither,Neither -> Neither
+Andorra,AND,WASH,0.007419820212234529,True,1,Neither,Neither -> Neither
+United Arab Emirates,ARE,Ambient PM2.5,0.4190898719787457,True,2,Excess-only,Excess-only -> Excess-only
+Argentina,ARG,Health resources,1.9510985344235177,True,5,Neither,Neither -> Neither
+Armenia,ARM,Ambient PM2.5,0.7185378506222053,True,2,Neither,Neither -> Neither
+American Samoa,ASM,WASH,1.7141281118799785,True,5,Excess-only,Neither -> Excess-only
+Antigua and Barbuda,ATG,Health resources,1.883149676747378,True,6,Excess-only,Neither -> Excess-only
+Australia,AUS,Household energy/HAP,0.8730660216519324,True,3,Neither,Neither -> Neither
+Austria,AUT,Household energy/HAP,0.7726100995493268,True,2,Neither,Neither -> Neither
+Azerbaijan,AZE,Health resources,1.722571076754409,True,3,Excess-only,Double-high -> Excess-only
+Burundi,BDI,Climate/transmission,0.28498806078521355,True,3,Structural high,Double-high -> Structural high
+Belgium,BEL,Household energy/HAP,0.9445020196457412,True,2,Neither,Neither -> Neither
+Benin,BEN,Immunisation/UHC,0.37333162732854686,True,3,Structural high,Structural high -> Structural high
+Burkina Faso,BFA,WASH,0.32020452404401745,True,1,Neither,Structural high -> Neither
+Bangladesh,BGD,Ambient PM2.5,0.3008859743066221,True,3,Structural high,Double-high -> Structural high
+Bulgaria,BGR,WASH,1.4649468875488214,True,3,Excess-only,Excess-only -> Excess-only
+Bahrain,BHR,Household energy/HAP,1.1170808131584076,True,6,Excess-only,Neither -> Excess-only
+Bahamas,BHS,Immunisation/UHC,0.9475572308243713,True,3,Excess-only,Neither -> Excess-only
+Bosnia and Herzegovina,BIH,WASH,1.1934005443658406,True,4,Neither,Neither -> Neither
+Belarus,BLR,Health resources,0.46197310245567236,True,2,Neither,Neither -> Neither
+Belize,BLZ,Immunisation/UHC,1.0966429968777451,True,6,Neither,Neither -> Neither
+Bermuda,BMU,Ambient PM2.5,0.02887245675428185,True,2,Excess-only,Neither -> Excess-only
+Bolivia (Plurinational State of),BOL,Immunisation/UHC,2.2257777941693364,True,5,Double-high,Double-high -> Double-high
+Brazil,BRA,Immunisation/UHC,0.7944269162170954,True,3,Excess-only,Double-high -> Excess-only
+Barbados,BRB,Ambient PM2.5,1.3930957578164267,True,5,Excess-only,Neither -> Excess-only
+Brunei Darussalam,BRN,Ambient PM2.5,0.07438981355343455,True,1,Neither,Neither -> Neither
+Bhutan,BTN,Climate/transmission,0.1732192058841795,True,1,Neither,Structural high -> Neither
+Botswana,BWA,Household energy/HAP,0.4391253923595791,True,3,Excess-only,Neither -> Excess-only
+Central African Republic,CAF,WASH,1.4198264504316547,True,5,Structural high,Double-high -> Structural high
+Canada,CAN,Household energy/HAP,0.7474927449644311,True,4,Neither,Neither -> Neither
+Switzerland,CHE,WASH,0.004594905206715905,True,1,Neither,Neither -> Neither
+Chile,CHL,HIV/TB,0.8545752230405623,True,5,Neither,Neither -> Neither
+China,CHN,Immunisation/UHC,1.5530569965119265,True,4,Excess-only,Double-high -> Excess-only
+Côte d'Ivoire,CIV,Climate/transmission,0.07732168957693686,True,1,Neither,Structural high -> Neither
+Cameroon,CMR,Climate/transmission,0.08530165023498432,True,2,Structural high,Structural high -> Structural high
+Democratic Republic of the Congo,COD,WASH,0.9688888975194021,True,3,Structural high,Double-high -> Structural high
+Congo,COG,Ambient PM2.5,0.7512955692553576,True,3,Neither,Double-high -> Neither
+Cook Islands,COK,Ambient PM2.5,0.4194118964313105,True,2,Excess-only,Excess-only -> Excess-only
+Colombia,COL,Household energy/HAP,0.3116864847433176,True,2,Neither,Neither -> Neither
+Comoros,COM,Immunisation/UHC,0.284027165613579,True,2,Structural high,Double-high -> Structural high
+Cabo Verde,CPV,Health resources,0.4993787597485483,True,6,Neither,Neither -> Neither
+Costa Rica,CRI,Ambient PM2.5,0.20151887346338848,True,3,Neither,Neither -> Neither
+Cuba,CUB,Immunisation/UHC,0.9156538712090296,True,5,Neither,Neither -> Neither
+Cyprus,CYP,Climate/transmission,0.20838607766903258,True,3,Neither,Neither -> Neither
+Czechia,CZE,Immunisation/UHC,0.205861300122272,True,2,Excess-only,Neither -> Excess-only
+Germany,DEU,Household energy/HAP,0.8757391350360941,True,3,Neither,Neither -> Neither
+Djibouti,DJI,Climate/transmission,0.20174012364224514,True,1,Structural high,Structural high -> Structural high
+Dominica,DMA,Immunisation/UHC,2.5323087867834313,True,5,Excess-only,Neither -> Excess-only
+Denmark,DNK,Household energy/HAP,0.35087235667090566,True,2,Neither,Neither -> Neither
+Dominican Republic,DOM,Household energy/HAP,1.2855125526191626,True,7,Neither,Neither -> Neither
+Algeria,DZA,WASH,1.9173372463235756,True,6,Neither,Excess-only -> Neither
+Ecuador,ECU,Household energy/HAP,0.7497379164747024,True,4,Neither,Excess-only -> Neither
+Egypt,EGY,Household energy/HAP,1.290745662530417,True,7,Double-high,Double-high -> Double-high
+Eritrea,ERI,Health resources,0.34139803716846295,True,2,Structural high,Double-high -> Structural high
+Spain,ESP,Household energy/HAP,0.3440106163862311,True,2,Neither,Neither -> Neither
+Estonia,EST,HIV/TB,0.12411608496742149,True,1,Excess-only,Neither -> Excess-only
+Ethiopia,ETH,Ambient PM2.5,0.10270501550648953,True,1,Structural high,Double-high -> Structural high
+Finland,FIN,Household energy/HAP,1.0635184250041971,True,3,Neither,Neither -> Neither
+Fiji,FJI,Household energy/HAP,0.9012546510877476,True,6,Double-high,Neither -> Double-high
+France,FRA,Household energy/HAP,1.003550907668746,True,3,Neither,Neither -> Neither
+Micronesia (Federated States of),FSM,Immunisation/UHC,1.9705020969064189,True,5,Neither,Neither -> Neither
+Gabon,GAB,WASH,2.2805386395865623,True,6,Neither,Double-high -> Neither
+United Kingdom,GBR,Household energy/HAP,1.0484550374953219,True,3,Neither,Neither -> Neither
+Georgia,GEO,Climate/transmission,0.2800942479020391,True,5,Excess-only,Neither -> Excess-only
+Ghana,GHA,WASH,0.5513444093696138,True,3,Neither,Neither -> Neither
+Guinea,GIN,Immunisation/UHC,0.5385748502308593,True,3,Structural high,Structural high -> Structural high
+Gambia,GMB,Immunisation/UHC,1.2564860863064442,True,5,Structural high,Structural high -> Structural high
+Guinea-Bissau,GNB,Climate/transmission,0.14604004797504266,True,3,Structural high,Structural high -> Structural high
+Equatorial Guinea,GNQ,Household energy/HAP,1.6289985588019449,True,5,Neither,Double-high -> Neither
+Greece,GRC,Health resources,0.408158302825238,True,3,Neither,Neither -> Neither
+Grenada,GRD,Immunisation/UHC,1.104605729097876,True,6,Neither,Neither -> Neither
+Greenland,GRL,HIV/TB,1.0810569485658608,True,3,Neither,Neither -> Neither
+Guatemala,GTM,WASH,0.8914578476961675,True,7,Neither,Neither -> Neither
+Guam,GUM,HIV/TB,0.1836519869548261,True,2,Double-high,Excess-only -> Double-high
+Guyana,GUY,WASH,1.4356487484963885,True,6,Neither,Neither -> Neither
+Honduras,HND,Immunisation/UHC,2.0326157636624465,True,2,Neither,Neither -> Neither
+Croatia,HRV,WASH,0.38171170709000446,True,3,Excess-only,Neither -> Excess-only
+Haiti,HTI,Immunisation/UHC,0.5346858203620669,True,4,Structural high,Double-high -> Structural high
+Hungary,HUN,Immunisation/UHC,0.7566262662498313,True,3,Excess-only,Neither -> Excess-only
+Indonesia,IDN,HIV/TB,0.1316327298864053,True,1,Excess-only,Excess-only -> Excess-only
+India,IND,Ambient PM2.5,1.229182247133812,True,3,Double-high,Double-high -> Double-high
+Ireland,IRL,Household energy/HAP,1.0097916406171783,True,1,Neither,Neither -> Neither
+Iran (Islamic Republic of),IRN,Ambient PM2.5,1.4923050043134425,True,4,Neither,Neither -> Neither
+Iraq,IRQ,Household energy/HAP,0.9452529814287159,True,5,Excess-only,Double-high -> Excess-only
+Iceland,ISL,Household energy/HAP,0.9458063718150753,True,4,Neither,Neither -> Neither
+Israel,ISR,Household energy/HAP,0.6050979317466538,True,4,Neither,Neither -> Neither
+Italy,ITA,Household energy/HAP,0.434896893698301,True,3,Neither,Neither -> Neither
+Jamaica,JAM,Health resources,1.668508981704647,True,5,Neither,Neither -> Neither
+Jordan,JOR,Household energy/HAP,1.9789532067730469,True,5,Excess-only,Excess-only -> Excess-only
+Japan,JPN,Household energy/HAP,0.6785926988627506,True,3,Neither,Neither -> Neither
+Kazakhstan,KAZ,Health resources,0.5631649278764443,True,4,Neither,Neither -> Neither
+Kenya,KEN,WASH,1.4522663085785283,True,5,Double-high,Double-high -> Double-high
+Kyrgyzstan,KGZ,Ambient PM2.5,0.24982511492502288,True,1,Neither,Neither -> Neither
+Cambodia,KHM,Climate/transmission,0.1868419030598505,True,1,Structural high,Double-high -> Structural high
+Kiribati,KIR,Household energy/HAP,1.1821041872949707,True,6,Structural high,Neither -> Structural high
+Saint Kitts and Nevis,KNA,Health resources,1.2139660642950285,True,6,Excess-only,Neither -> Excess-only
+Republic of Korea,KOR,HIV/TB,0.5253068697981749,True,4,Neither,Neither -> Neither
+Kuwait,KWT,Ambient PM2.5,0.4076064538526203,True,4,Double-high,Excess-only -> Double-high
+Lao People's Democratic Republic,LAO,Climate/transmission,0.007910789618826686,True,1,Structural high,Structural high -> Structural high
+Lebanon,LBN,Health resources,3.728106006098014,True,6,Excess-only,Double-high -> Excess-only
+Liberia,LBR,HIV/TB,0.2504456242294272,True,3,Structural high,Structural high -> Structural high
+Libya,LBY,WASH,1.1969685106445969,True,5,Double-high,Excess-only -> Double-high
+Saint Lucia,LCA,Household energy/HAP,0.7228487372932796,True,5,Neither,Neither -> Neither
+Sri Lanka,LKA,Household energy/HAP,2.6833166963729047,True,7,Excess-only,Excess-only -> Excess-only
+Lesotho,LSO,HIV/TB,1.2608380570713487,True,1,Double-high,Double-high -> Double-high
+Lithuania,LTU,Health resources,0.8768088488444079,True,1,Excess-only,Neither -> Excess-only
+Luxembourg,LUX,HIV/TB,0.11589242152223539,True,1,Neither,Neither -> Neither
+Latvia,LVA,No positive contextual lag,0.0,False,0,Excess-only,Neither -> Excess-only
+Morocco,MAR,Health resources,0.7969230956918587,True,7,Neither,Double-high -> Neither
+Monaco,MCO,Immunisation/UHC,0.6857862947486675,True,2,Neither,Neither -> Neither
+Republic of Moldova,MDA,HIV/TB,2.368770484274048,True,5,Neither,Neither -> Neither
+Madagascar,MDG,Health resources,0.6487921533988132,True,5,Structural high,Double-high -> Structural high
+Maldives,MDV,WASH,0.4825332072449745,True,3,Neither,Neither -> Neither
+Mexico,MEX,Immunisation/UHC,1.053329255918315,True,5,Neither,Neither -> Neither
+Marshall Islands,MHL,HIV/TB,3.184695013942118,True,5,Double-high,Neither -> Double-high
+North Macedonia,MKD,Health resources,0.5426844193218754,True,4,Neither,Neither -> Neither
+Mali,MLI,Climate/transmission,0.0828188833416462,True,1,Structural high,Neither -> Structural high
+Malta,MLT,Household energy/HAP,0.5127048069675719,True,4,Neither,Neither -> Neither
+Myanmar,MMR,Immunisation/UHC,0.898566738869877,True,6,Structural high,Structural high -> Structural high
+Montenegro,MNE,Immunisation/UHC,1.005313611807141,True,5,Excess-only,Neither -> Excess-only
+Mongolia,MNG,Ambient PM2.5,1.2158352783095323,True,1,Neither,Neither -> Neither
+Northern Mariana Islands,MNP,Household energy/HAP,0.2682109616029398,True,2,Excess-only,Excess-only -> Excess-only
+Mozambique,MOZ,HIV/TB,1.447329070817045,True,1,Neither,Structural high -> Neither
+Mauritania,MRT,No positive contextual lag,0.0,False,0,Structural high,Structural high -> Structural high
+Mauritius,MUS,WASH,0.9180742784733473,True,6,Double-high,Excess-only -> Double-high
+Malawi,MWI,Health resources,0.09119891754588039,True,2,Structural high,Double-high -> Structural high
+Malaysia,MYS,Household energy/HAP,0.8054064085197357,True,4,Excess-only,Excess-only -> Excess-only
+Namibia,NAM,Health resources,1.9968404075362245,True,6,Double-high,Double-high -> Double-high
+Niger,NER,Ambient PM2.5,0.4384256956604171,True,4,Structural high,Structural high -> Structural high
+Nigeria,NGA,HIV/TB,0.20713094563879297,True,2,Double-high,Double-high -> Double-high
+Nicaragua,NIC,Immunisation/UHC,0.5925284875476184,True,5,Neither,Neither -> Neither
+Niue,NIU,Immunisation/UHC,1.1072314649068127,True,4,Double-high,Excess-only -> Double-high
+Netherlands,NLD,Household energy/HAP,0.4280586398687451,True,3,Neither,Neither -> Neither
+Norway,NOR,No positive contextual lag,0.0,False,0,Neither,Neither -> Neither
+Nepal,NPL,Ambient PM2.5,0.7018973489789545,True,3,Structural high,Double-high -> Structural high
+Nauru,NRU,Health resources,1.5497202965991987,True,5,Double-high,Double-high -> Double-high
+New Zealand,NZL,Household energy/HAP,0.6829033044325221,True,4,Neither,Neither -> Neither
+Oman,OMN,Household energy/HAP,1.6627045817027302,True,6,Excess-only,Excess-only -> Excess-only
+Pakistan,PAK,Health resources,0.4982853580861572,True,4,Double-high,Double-high -> Double-high
+Panama,PAN,Immunisation/UHC,0.6809703556986111,True,4,Neither,Neither -> Neither
+Peru,PER,Immunisation/UHC,0.7383816428929025,True,2,Neither,Double-high -> Neither
+Philippines,PHL,Health resources,0.2406462963990107,True,2,Double-high,Double-high -> Double-high
+Palau,PLW,HIV/TB,2.2855230005567555,True,2,Excess-only,Excess-only -> Excess-only
+Papua New Guinea,PNG,Immunisation/UHC,1.7321324017630066,True,2,Structural high,Neither -> Structural high
+Poland,POL,WASH,0.8000596702419506,True,2,Excess-only,Neither -> Excess-only
+Puerto Rico,PRI,Ambient PM2.5,0.14851225231990278,True,2,Excess-only,Neither -> Excess-only
+Democratic People's Republic of Korea,PRK,Household energy/HAP,1.3773014329728779,True,4,Structural high,Double-high -> Structural high
+Portugal,PRT,Health resources,1.1690560812639252,True,6,Neither,Neither -> Neither
+Paraguay,PRY,No positive contextual lag,0.0,False,0,Neither,Neither -> Neither
+Palestine,PSE,Household energy/HAP,3.1448702681076366,True,7,Double-high,Neither -> Double-high
+Qatar,QAT,Ambient PM2.5,0.4703568882474105,True,2,Excess-only,Excess-only -> Excess-only
+Romania,ROU,WASH,1.6007831029795632,True,5,Excess-only,Neither -> Excess-only
+Russian Federation,RUS,Health resources,1.2587811107273164,True,3,Neither,Neither -> Neither
+Rwanda,RWA,Climate/transmission,0.2285944112702818,True,1,Structural high,Double-high -> Structural high
+Saudi Arabia,SAU,Household energy/HAP,1.0128489326964973,True,5,Excess-only,Excess-only -> Excess-only
+Sudan,SDN,Immunisation/UHC,1.4327517830841037,True,7,Structural high,Structural high -> Structural high
+Senegal,SEN,Nutrition,0.268148563217331,True,2,Neither,Structural high -> Neither
+Singapore,SGP,WASH,0.0074211980486913465,True,1,Excess-only,Neither -> Excess-only
+Solomon Islands,SLB,WASH,0.251617340566802,True,4,Structural high,Neither -> Structural high
+Sierra Leone,SLE,HIV/TB,0.357278788342126,True,3,Structural high,Structural high -> Structural high
+El Salvador,SLV,WASH,0.8935943338298293,True,5,Neither,Neither -> Neither
+San Marino,SMR,Immunisation/UHC,0.4152326184768419,True,4,Neither,Neither -> Neither
+Somalia,SOM,Immunisation/UHC,0.2745327731557283,True,2,Structural high,Structural high -> Structural high
+Serbia,SRB,Climate/transmission,0.6983781402765954,True,2,Neither,Neither -> Neither
+South Sudan,SSD,Household energy/HAP,0.7426404563096761,True,2,Structural high,Structural high -> Structural high
+Sao Tome and Principe,STP,Climate/transmission,0.08902266409909054,True,1,Neither,Structural high -> Neither
+Suriname,SUR,HIV/TB,0.6005034099698195,True,1,Neither,Neither -> Neither
+Slovakia,SVK,Health resources,0.2253715292292056,True,2,Excess-only,Neither -> Excess-only
+Slovenia,SVN,Climate/transmission,0.1808141312711652,True,2,Excess-only,Neither -> Excess-only
+Sweden,SWE,Household energy/HAP,0.9377993531520572,True,1,Neither,Neither -> Neither
+Eswatini,SWZ,Health resources,0.8121718978198129,True,5,Structural high,Double-high -> Structural high
+Seychelles,SYC,Health resources,0.7364247377455087,True,5,Double-high,Excess-only -> Double-high
+Syrian Arab Republic,SYR,Immunisation/UHC,1.7770211558428977,True,7,Structural high,Neither -> Structural high
+Chad,TCD,Immunisation/UHC,0.6074946781883134,True,2,Structural high,Structural high -> Structural high
+Togo,TGO,Climate/transmission,0.12150358081226909,True,1,Structural high,Structural high -> Structural high
+Thailand,THA,Immunisation/UHC,0.37725080921219545,True,3,Double-high,Excess-only -> Double-high
+Tajikistan,TJK,Ambient PM2.5,1.371177538640094,True,6,Neither,Neither -> Neither
+Turkmenistan,TKM,Ambient PM2.5,0.8956567007542908,True,2,Excess-only,Excess-only -> Excess-only
+Timor-Leste,TLS,HIV/TB,1.197864490754282,True,1,Double-high,Double-high -> Double-high
+Tonga,TON,WASH,0.4328623620909875,True,2,Double-high,Neither -> Double-high
+Trinidad and Tobago,TTO,HIV/TB,0.7457227912069211,True,6,Neither,Neither -> Neither
+Tunisia,TUN,Household energy/HAP,0.637126161858267,True,4,Excess-only,Excess-only -> Excess-only
+Türkiye,TUR,WASH,1.0087544401257353,True,6,Excess-only,Double-high -> Excess-only
+Tuvalu,TUV,Health resources,1.2145028472253,True,4,Structural high,Neither -> Structural high
+Taiwan,TWN,Household energy/HAP,1.4436329963762335,True,1,Excess-only,Excess-only -> Excess-only
+United Republic of Tanzania,TZA,Climate/transmission,0.047062240620943885,True,1,Structural high,Double-high -> Structural high
+Uganda,UGA,Health resources,0.09733859592405825,True,2,Structural high,Structural high -> Structural high
+Ukraine,UKR,WASH,1.7616785123518341,True,6,Neither,Neither -> Neither
+Uruguay,URY,Health resources,2.2324981115901514,True,7,Neither,Neither -> Neither
+United States of America,USA,No positive contextual lag,0.0,False,0,Neither,Neither -> Neither
+Uzbekistan,UZB,Health resources,1.5446132012024123,True,1,Neither,Excess-only -> Neither
+Saint Vincent and the Grenadines,VCT,Household energy/HAP,0.3833885964093662,True,3,Neither,Neither -> Neither
+Venezuela (Bolivarian Republic of),VEN,Household energy/HAP,0.7591945898613799,True,3,Neither,Neither -> Neither
+United States Virgin Islands,VIR,Ambient PM2.5,0.09044303197371095,True,2,Excess-only,Neither -> Excess-only
+Viet Nam,VNM,Immunisation/UHC,1.6925352168383125,True,5,Neither,Double-high -> Neither
+Vanuatu,VUT,Immunisation/UHC,0.2721046271018164,True,2,Structural high,Neither -> Structural high
+Samoa,WSM,Immunisation/UHC,0.7462678519257351,True,5,Structural high,Neither -> Structural high
+Yemen,YEM,Immunisation/UHC,1.5006939322295219,True,4,Structural high,Double-high -> Structural high
+South Africa,ZAF,Ambient PM2.5,1.1606989462498978,True,5,Double-high,Double-high -> Double-high
+Zambia,ZMB,No positive contextual lag,0.0,False,0,Neither,Structural high -> Neither
+Zimbabwe,ZWE,WASH,0.6050534226504937,True,2,Structural high,Neither -> Structural high

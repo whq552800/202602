@@ -1,0 +1,5 @@
+﻿age_group,age_label,comparison,main_n,sensitivity_n,overlap_n,jaccard,main_only_iso3,sensitivity_only_iso3
+u5,Under 5 years,main_ols_vs_population_weighted_wls,23,18,18,0.782608695652174,BOL;IND;NAM;NGA;TLS,
+total,All ages,main_ols_vs_population_weighted_wls,31,26,26,0.8387096774193549,COM;ERI;MRT;PAK;ZWE,
+5_69,5-69 years,main_ols_vs_population_weighted_wls,44,42,39,0.8297872340425532,CIV;COD;HTI;MDG;TZA,PHL;SOM;TCD
+70p,70+ years,main_ols_vs_population_weighted_wls,41,33,33,0.8048780487804879,AGO;CIV;DJI;GIN;PAK;RWA;SLE;TZA,

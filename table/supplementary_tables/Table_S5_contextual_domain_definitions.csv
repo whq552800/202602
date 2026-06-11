@@ -1,0 +1,9 @@
+﻿Contextual domain,Indicators included,Adverse direction,Peer adjustment,Interpretation
+Household energy/HAP,Clean cooking access; household-air-pollution PM2.5,lower clean cooking and higher HAP-PM,same-year SDI-quintile peers,Peer-relative household energy and indoor-air-pollution context
+WASH,Basic drinking water; basic sanitation,lower access,same-year SDI-quintile peers,Peer-relative water and sanitation context
+Immunisation/UHC,"DPT, Hib3, PCV3, UHC index",lower coverage,same-year SDI-quintile peers,Peer-relative prevention and service-coverage context
+HIV/TB,HIV prevalence; TB incidence,higher burden,same-year SDI-quintile peers,Infectious-disease background domain
+Nutrition,Stunting; wasting,higher burden,same-year SDI-quintile peers,Peer-relative nutritional vulnerability context
+Health resources,"Health expenditure, nurses/midwives, physicians",lower resources,same-year SDI-quintile peers,Peer-relative health-resource context
+Ambient PM2.5,Ambient PM2.5,higher concentration,same-year SDI-quintile peers,Peer-relative outdoor air-pollution context
+Climate/transmission,"Temperature, humidity and outside-midrange humidity days",more adverse transmission context,same-year SDI-quintile peers,Peer-relative climate/transmission context

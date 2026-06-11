@@ -1,22 +1,10 @@
 # Childhood LRI Development-Year Peer Benchmarking
 
-This repository provides the public code and machine-readable source-data package
+This repository provides the public tables, figure source data, and figure files
 for the manuscript:
 
 **Development-year peer benchmarking of childhood lower respiratory infection
 burden across 203 countries and territories, 1990-2023**
-
-The current submitted machine-readable data package is:
-
-```text
-revision_v2_machine_readable_source_data_20260611.zip
-```
-
-SHA256:
-
-```text
-EA2817860E47E9C227D40064348F635D50A34109B0EEDA9D14A6A44312D0FC35
-```
 
 ## Scientific Scope
 
@@ -29,46 +17,37 @@ causal attribution estimates.
 
 ```text
 .
-├── code/
-│   ├── config.py
-│   ├── rebuild_outputs.py
-│   ├── build_reordered_supplement_v2.py
-│   ├── build_robustness_supplement_s19_s22.py
-│   ├── build_supplementary_figures.py
-│   ├── build_revision_v1_package.py
-│   └── validate_package.py
-├── data/
-│   └── analysis/
-├── figure/
-│   ├── manuscript/
-│   └── SI/
-├── panel0_1990_2019_direct_meteo_GBDPM_HAP_lui.csv
-├── requirements.txt
-├── revision_v2_machine_readable_source_data_20260611.zip
-└── README.md
+??? data/
+?   ??? analysis/
+??? figure/
+?   ??? manuscript/
+?   ??? SI/
+??? table/
+?   ??? machine_readable_source_data/
+?   ??? supplementary_tables/
+?   ??? data_dictionary.csv
+?   ??? figure_source_data_revision_v2_20260611.xlsx
+??? panel0_1990_2019_direct_meteo_GBDPM_HAP_lui.csv
+??? requirements.txt
+??? README.md
 ```
 
-The `code/` folder contains the revision-build and validation scripts used in the
-local analysis environment. The submitted machine-readable tables are packaged in
-the zip file above. The `figure/` folder contains the final manuscript figures
-and supplementary figure files uploaded for review.
+The `table/` folder contains the submitted machine-readable source tables and
+JAMA supplementary table CSV files. The `figure/` folder contains the final
+manuscript and supplementary figure files uploaded for review.
 
-## Machine-Readable Source Data
+## Machine-Readable Tables
 
-The zip archive contains 39 files:
+The public table folder contains:
 
-- 26 source-data CSV files under `machine_readable_source_data/`
-- 9 JAMA supplementary table CSV files under `supplementary_tables/`
-- `figure_source_data_revision_v2_20260611.xlsx`
-- `data_dictionary.csv`
-- `README_machine_readable_source_data_20260611.md`
-- `MANIFEST_revision_v2_source_data_20260611.json`
-
-The archive passed ZIP integrity validation (`testzip = None`) after upload.
+- 26 source-data CSV files under `table/machine_readable_source_data/`
+- 9 JAMA supplementary table CSV files under `table/supplementary_tables/`
+- `table/figure_source_data_revision_v2_20260611.xlsx`
+- `table/data_dictionary.csv`
 
 ## Supplementary Tables
 
-The JAMA supplementary table files in the archive are:
+The JAMA supplementary table files are:
 
 - `Table_S1_data_sources_indicators.csv`
 - `Table_S2_expected_model_validation.csv`
@@ -87,7 +66,7 @@ contextual lag domain, and positive lag domains.
 
 ## Key Source-Data Files
 
-The `machine_readable_source_data/` folder in the zip includes the country-year
+The `table/machine_readable_source_data/` folder includes the country-year
 benchmark panel, 2023 profile membership, 2000-2023 transition matrices,
 benchmark-residual decomposition files, contextual-domain residual files,
 pathogen mortality profile files, model validation results, and robustness or
@@ -98,21 +77,6 @@ sensitivity summaries.
 The `figure/manuscript/` folder contains the four main manuscript figure PNG
 files and the editable Illustrator file used for final layout. The `figure/SI/`
 folder contains Supplementary Figures S1-S11 in PNG and PDF formats.
-
-## How To Inspect The Data Package
-
-Unzip the source-data package and read the manifest and data dictionary first:
-
-```powershell
-Expand-Archive .\revision_v2_machine_readable_source_data_20260611.zip .\revision_v2_machine_readable_source_data_20260611
-```
-
-Then open:
-
-```text
-revision_v2_machine_readable_source_data_20260611\MANIFEST_revision_v2_source_data_20260611.json
-revision_v2_machine_readable_source_data_20260611\data_dictionary.csv
-```
 
 ## Data Source Notes
 
