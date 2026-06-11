@@ -1,0 +1,397 @@
+﻿file_name,variable_name,description,unit,allowed_values,missing_value_code
+01_location_year_benchmark_2000_2023.csv,location_id,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,location_name,Country or territory name,text,,blank/NA
+01_location_year_benchmark_2000_2023.csv,iso3,ISO3 location code,text,,blank/NA
+01_location_year_benchmark_2000_2023.csv,year,Calendar year,year,,blank/NA
+01_location_year_benchmark_2000_2023.csv,sdi,Socio-demographic Index,unitless,,blank/NA
+01_location_year_benchmark_2000_2023.csv,sdi_quintile,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,observed_lri_u5_rate,Observed under-5 LRI incidence rate,"per 100,000 population",,blank/NA
+01_location_year_benchmark_2000_2023.csv,expected_lri_u5_rate,SDI-year expected under-5 LRI incidence rate,"per 100,000 population",,blank/NA
+01_location_year_benchmark_2000_2023.csv,excess_lri_u5_rate,Observed minus expected under-5 LRI incidence rate,"per 100,000 population",,blank/NA
+01_location_year_benchmark_2000_2023.csv,oe_ratio,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,log_oe_ratio,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,high_observed_threshold,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,high_excess_threshold,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,high_observed,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,high_excess,Variable from source table,,,blank/NA
+01_location_year_benchmark_2000_2023.csv,burden_profile,Development-year burden profile,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+02_profile_2023_location_level.csv,location_id,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,location_name,Country or territory name,text,,blank/NA
+02_profile_2023_location_level.csv,iso3,ISO3 location code,text,,blank/NA
+02_profile_2023_location_level.csv,sdi_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,observed_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,expected_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,excess_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,oe_ratio_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,high_observed_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,high_excess_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,burden_profile_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,high_excess_years_2000_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,marked_adverse_domains_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,n_marked_domains_2023,Variable from source table,,,blank/NA
+02_profile_2023_location_level.csv,dominant_adverse_domain_2023,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,profile,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,number_of_locations,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,observed_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,expected_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,excess_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,sdi_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,hap_pm_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,clean_cooking_mean,Variable from source table,,,blank/NA
+03_profile_summary_2023.csv,uhc_mean,Variable from source table,,,blank/NA
+04_transition_matrix_2000_2023.csv,profile_2000,Variable from source table,,,blank/NA
+04_transition_matrix_2000_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+04_transition_matrix_2000_2023.csv,number_of_locations,Variable from source table,,,blank/NA
+04_transition_matrix_2000_2023.csv,locations,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,iso3,ISO3 location code,text,,blank/NA
+05_transition_location_level_2000_2023.csv,location_name,Country or territory name,text,,blank/NA
+05_transition_location_level_2000_2023.csv,profile_2000,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+05_transition_location_level_2000_2023.csv,transition_pathway,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Stable 2023 profile from,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,"High-observed years, 2000-2023",Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,"High-excess years, 2000-2023",Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,sdi_2000,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,sdi_2023,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,sdi_change,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,observed_2000,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,observed_2023,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,observed_decline,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,expected_2000,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,expected_2023,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,expected_decline,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,excess_2000,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,excess_2023,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,residual_excess_decline,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Household energy/HAP_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Ambient PM2.5_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Climate/transmission_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,WASH_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Immunisation/UHC_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,HIV/TB_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Nutrition_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Health resources_delta_z,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Residual-vs-benchmark change pattern,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Largest relative lag domains,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,Largest relative catch-up domains,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,included_in_full_transition,Variable from source table,,,blank/NA
+05_transition_location_level_2000_2023.csv,included_in_2000_double_high_cohort,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,iso3,ISO3 location code,text,,blank/NA
+06_double_high_2000_decomposition.csv,location_name,Country or territory name,text,,blank/NA
+06_double_high_2000_decomposition.csv,profile_2000,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+06_double_high_2000_decomposition.csv,transition_pathway,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Stable 2023 profile from,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,"High-observed years, 2000-2023",Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,"High-excess years, 2000-2023",Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,sdi_2000,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,sdi_2023,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,sdi_change,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,observed_2000,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,observed_2023,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,observed_decline,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,expected_2000,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,expected_2023,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,expected_decline,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,excess_2000,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,excess_2023,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,residual_excess_decline,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Household energy/HAP_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Ambient PM2.5_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Climate/transmission_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,WASH_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Immunisation/UHC_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,HIV/TB_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Nutrition_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Health resources_delta_z,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Residual-vs-benchmark change pattern,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Largest relative lag domains,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,Largest relative catch-up domains,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,included_in_full_transition,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,included_in_2000_double_high_cohort,Variable from source table,,,blank/NA
+06_double_high_2000_decomposition.csv,residual_share_of_observed_decline,Variable from source table,,,blank/NA
+07_decomposition_summary_2000_double_high.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+07_decomposition_summary_2000_double_high.csv,number_of_locations,Variable from source table,,,blank/NA
+07_decomposition_summary_2000_double_high.csv,observed_decline_mean,Variable from source table,,,blank/NA
+07_decomposition_summary_2000_double_high.csv,expected_decline_mean,Variable from source table,,,blank/NA
+07_decomposition_summary_2000_double_high.csv,residual_excess_decline_mean,Variable from source table,,,blank/NA
+07_decomposition_summary_2000_double_high.csv,residual_share_of_observed_decline,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,iso3,ISO3 location code,text,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,location_name,Country or territory name,text,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,profile_2000,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,transition_pathway,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Stable 2023 profile from,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,"High-observed years, 2000-2023",Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,"High-excess years, 2000-2023",Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,sdi_2000,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,sdi_2023,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,sdi_change,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,observed_2000,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,observed_2023,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,observed_decline,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,expected_2000,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,expected_2023,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,expected_decline,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,excess_2000,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,excess_2023,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,residual_excess_decline,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Household energy/HAP_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Ambient PM2.5_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Climate/transmission_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,WASH_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Immunisation/UHC_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,HIV/TB_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Nutrition_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Health resources_delta_z,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Residual-vs-benchmark change pattern,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Largest relative lag domains,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,Largest relative catch-up domains,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,included_in_full_transition,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,included_in_2000_double_high_cohort,Variable from source table,,,blank/NA
+08_full_panel_benchmark_residual_dynamics.csv,residual_dynamic_class,Variable from source table,,,blank/NA
+09_benchmark_residual_correlation_summary.csv,statistic,Variable from source table,,,blank/NA
+09_benchmark_residual_correlation_summary.csv,value,Variable from source table,,,blank/NA
+09_benchmark_residual_correlation_summary.csv,number_of_locations,Variable from source table,,,blank/NA
+09_benchmark_residual_correlation_summary.csv,notes,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,location_name,Country or territory name,text,,blank/NA
+10_contextual_indicators_location_year.csv,iso3,ISO3 location code,text,,blank/NA
+10_contextual_indicators_location_year.csv,year,Calendar year,year,,blank/NA
+10_contextual_indicators_location_year.csv,clean_cooking,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,hap_pm,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,basic_water,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,basic_sanitation,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,dpt,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,hib3,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,pcv3,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,uhc_index,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,stunting_u5_pct,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,wasting_u5_pct,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,hiv_prevalence,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,tb_incidence,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,current_health_expenditure_pc_usd,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,nurses_midwives_per1000,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,physicians_per1000,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,ambient_pm25,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,mean_temperature,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,mean_absolute_humidity,Variable from source table,,,blank/NA
+10_contextual_indicators_location_year.csv,outside_midrange_humidity_days,Variable from source table,,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,location_name,Country or territory name,text,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,iso3,ISO3 location code,text,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,year,Calendar year,year,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,adverse_z,Peer-relative adverse contextual residual z-score,z-score,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,peer_reference,Variable from source table,,,blank/NA
+11_contextual_peer_residuals_2000_2023.csv,indicator_group,Variable from source table,,,blank/NA
+12_contextual_domain_change_2000_2023.csv,location_name,Country or territory name,text,,blank/NA
+12_contextual_domain_change_2000_2023.csv,iso3,ISO3 location code,text,,blank/NA
+12_contextual_domain_change_2000_2023.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+12_contextual_domain_change_2000_2023.csv,adverse_z_2000,Variable from source table,,,blank/NA
+12_contextual_domain_change_2000_2023.csv,adverse_z_2023,Variable from source table,,,blank/NA
+12_contextual_domain_change_2000_2023.csv,delta_adverse_z,2023 adverse z minus 2000 adverse z,z-score change,negative=catch-up; positive=lag,blank/NA
+12_contextual_domain_change_2000_2023.csv,catchup_or_lag,Variable from source table,,,blank/NA
+12_contextual_domain_change_2000_2023.csv,profile_2000,Variable from source table,,,blank/NA
+12_contextual_domain_change_2000_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+12_contextual_domain_change_2000_2023.csv,transition_pathway,Variable from source table,,,blank/NA
+13_dominant_contextual_lag_domain.csv,location_name,Country or territory name,text,,blank/NA
+13_dominant_contextual_lag_domain.csv,iso3,ISO3 location code,text,,blank/NA
+13_dominant_contextual_lag_domain.csv,dominant_contextual_lag_domain,Variable from source table,,,blank/NA
+13_dominant_contextual_lag_domain.csv,dominant_delta_z,Variable from source table,,,blank/NA
+13_dominant_contextual_lag_domain.csv,has_positive_lag,Variable from source table,,,blank/NA
+13_dominant_contextual_lag_domain.csv,number_of_positive_lag_domains,Variable from source table,,,blank/NA
+13_dominant_contextual_lag_domain.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+13_dominant_contextual_lag_domain.csv,transition_pathway,Variable from source table,,,blank/NA
+14_contextual_lag_domain_frequency.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+14_contextual_lag_domain_frequency.csv,number_of_locations,Variable from source table,,,blank/NA
+14_contextual_lag_domain_frequency.csv,percentage,Variable from source table,,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,location_name,Country or territory name,text,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,iso3,ISO3 location code,text,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,year,Calendar year,year,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,adverse_z,Peer-relative adverse contextual residual z-score,z-score,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,peer_reference,Variable from source table,,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,indicator_group,Variable from source table,,,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+15_endpoint_marked_adverse_domains_2023.csv,marked_adverse_z_gt_0_5,Variable from source table,,,blank/NA
+16_endpoint_marked_domain_summary_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+16_endpoint_marked_domain_summary_2023.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+16_endpoint_marked_domain_summary_2023.csv,number_marked,Variable from source table,,,blank/NA
+16_endpoint_marked_domain_summary_2023.csv,number_in_profile,Variable from source table,,,blank/NA
+16_endpoint_marked_domain_summary_2023.csv,percent_marked,Variable from source table,,,blank/NA
+17_pathogen_group_mortality_by_profile_2023.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+17_pathogen_group_mortality_by_profile_2023.csv,pathogen_group,Variable from source table,,,blank/NA
+17_pathogen_group_mortality_by_profile_2023.csv,mean_death_rate_per_100000,Variable from source table,,,blank/NA
+17_pathogen_group_mortality_by_profile_2023.csv,Share,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,state_2023,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,state_2023_label,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,rei_name,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,mean_death_rate,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,median_death_rate,Variable from source table,,,blank/NA
+18_pathogen_specific_mortality_by_profile_2023.csv,n_locations,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,age_group,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,age_label,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,model_id,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,validation_type,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,number_of_folds_or_observations,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,spearman_rho,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,rmse,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,mae,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,mape,Variable from source table,,,blank/NA
+19_expected_model_validation.csv,bias,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,scenario_id,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,model_id,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,observed_rule,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,excess_rule,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,number_double_high,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,jaccard_with_primary,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,profile_contrast_preserved,Variable from source table,,,blank/NA
+20_sensitivity_scenarios_under5.csv,high_observed_high_excess_iso3,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,age_group,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,age_label,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,age_role,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,n_high_observed,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,n_high_observed_high_excess,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,share_high_observed_also_high_excess,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,country_heldout_spearman,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,time_heldout_spearman,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,structural_n,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,structural_hap_pm_mean,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,structural_sdi_mean,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,high_excess_other_n,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,high_excess_other_hap_pm_mean,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,high_excess_other_sdi_mean,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,age_group_b,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,overlap_with_under5_double_high,Variable from source table,,,blank/NA
+21_age_boundary_sensitivity.csv,jaccard_with_under5,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,scenario_id,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,model_id,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,observed_rule,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,excess_rule,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,structural_n,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,excess_n,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,structural_clean_cooking_mean,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,excess_clean_cooking_mean,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,clean_cooking_difference_excess_minus_structural,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,structural_hap_pm_mean,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,excess_hap_pm_mean,Variable from source table,,,blank/NA
+22_sensitivity_contextual_contrasts_under5.csv,hap_pm_difference_excess_minus_structural,Variable from source table,,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,iso3,ISO3 location code,text,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,location_name,Country or territory name,text,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,n_scenarios,Variable from source table,,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,n_high_observed_high_excess,Variable from source table,,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,n_high_observed_not_high_excess,Variable from source table,,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,pct_high_observed_high_excess,Variable from source table,,,blank/NA
+23_sensitivity_country_membership_frequency_under5.csv,pct_high_observed_not_high_excess,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,threshold_label,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,high_quantile,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,low_sdi_quantile,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,u5_lri_high_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,hap_high_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,apm_high_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,tavg_high_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,high_rh_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,low_rh_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,sdi_low_threshold,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,n_locations,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,n_strict_priority,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,n_priority_score_ge4,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,mean_u5_strict_priority,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,mean_u5_non_strict_priority,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,mean_hap_strict_priority,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,mean_sdi_strict_priority,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,strict_priority_iso3,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,strict_priority_overlap_with_P67,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,strict_priority_jaccard_with_P67,Variable from source table,,,blank/NA
+24_priority_threshold_sensitivity_2023.csv,P67_locations_retained,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,age_group,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,age_label,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,comparison,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,main_n,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,sensitivity_n,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,overlap_n,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,jaccard,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,main_only_iso3,Variable from source table,,,blank/NA
+25_wls_overlap_sensitivity.csv,sensitivity_only_iso3,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,age_group_a,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,age_group_b,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,n_a,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,n_b,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,overlap_n,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,jaccard,Variable from source table,,,blank/NA
+26_age_boundary_cross_age_overlap.csv,overlap_iso3,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Domain,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Indicator,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Source,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Years,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Unit,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Direction of adversity,Variable from source table,,,blank/NA
+Table_S1_data_sources_indicators.csv,Use in analysis,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,age_group,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,age_label,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,model_id,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,validation_type,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,number_of_folds_or_observations,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,spearman_rho,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,rmse,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,mae,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,mape,Variable from source table,,,blank/NA
+Table_S2_expected_model_validation.csv,bias,Variable from source table,,,blank/NA
+Table_S3_annual_burden_profile_counts_2000_2023.csv,year,Calendar year,year,,blank/NA
+Table_S3_annual_burden_profile_counts_2000_2023.csv,Double-high,Variable from source table,,,blank/NA
+Table_S3_annual_burden_profile_counts_2000_2023.csv,Structural high,Variable from source table,,,blank/NA
+Table_S3_annual_burden_profile_counts_2000_2023.csv,Excess-only,Variable from source table,,,blank/NA
+Table_S3_annual_burden_profile_counts_2000_2023.csv,Neither,Variable from source table,,,blank/NA
+Table_S4_full_2000_2023_transition_matrix.csv,profile_2000,Variable from source table,,,blank/NA
+Table_S4_full_2000_2023_transition_matrix.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+Table_S4_full_2000_2023_transition_matrix.csv,number_of_locations,Variable from source table,,,blank/NA
+Table_S4_full_2000_2023_transition_matrix.csv,locations,Variable from source table,,,blank/NA
+Table_S5_contextual_domain_definitions.csv,Contextual domain,Variable from source table,,,blank/NA
+Table_S5_contextual_domain_definitions.csv,Indicators included,Variable from source table,,,blank/NA
+Table_S5_contextual_domain_definitions.csv,Adverse direction,Variable from source table,,,blank/NA
+Table_S5_contextual_domain_definitions.csv,Peer adjustment,Variable from source table,,,blank/NA
+Table_S5_contextual_domain_definitions.csv,Interpretation,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Location,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,ISO3,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Profile 2000,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Profile 2023,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Transition pathway,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Household energy/HAP,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Ambient PM2.5,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Climate/transmission,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: WASH,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Immunisation/UHC,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: HIV/TB,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Nutrition,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Delta adverse z: Health resources,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Dominant contextual lag domain,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Dominant delta adverse z,Variable from source table,,,blank/NA
+Table_S6_country_level_contextual_lag_matrix_2000_2023.csv,Number of positive lag domains,Variable from source table,,,blank/NA
+Table_S7_endpoint_contextual_domain_frequency_by_profile.csv,profile_2023,Burden profile in 2023,category,Double-high; Structural high; Excess-only; Neither,blank/NA
+Table_S7_endpoint_contextual_domain_frequency_by_profile.csv,domain,Contextual domain,category,Household energy/HAP; Ambient PM2.5; Climate/transmission; WASH; Immunisation/UHC; HIV/TB; Nutrition; Health resources,blank/NA
+Table_S7_endpoint_contextual_domain_frequency_by_profile.csv,number_marked,Variable from source table,,,blank/NA
+Table_S7_endpoint_contextual_domain_frequency_by_profile.csv,number_in_profile,Variable from source table,,,blank/NA
+Table_S7_endpoint_contextual_domain_frequency_by_profile.csv,percent_marked,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,age_group,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,age_label,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,age_role,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,n_high_observed,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,n_high_observed_high_excess,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,share_high_observed_also_high_excess,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,country_heldout_spearman,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,time_heldout_spearman,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,structural_n,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,structural_hap_pm_mean,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,structural_sdi_mean,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,high_excess_other_n,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,high_excess_other_hap_pm_mean,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,high_excess_other_sdi_mean,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,age_group_b,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,overlap_with_under5_double_high,Variable from source table,,,blank/NA
+Table_S8_age_boundary_sensitivity.csv,jaccard_with_under5,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Robustness check,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Specification,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Primary statistic,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Secondary statistic 1,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Secondary statistic 2,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Secondary statistic 3,Variable from source table,,,blank/NA
+Table_S9_wls_smearing_small_population_and_fixed_threshold_summary.csv,Notes,Variable from source table,,,blank/NA

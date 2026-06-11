@@ -1,0 +1,17 @@
+﻿profile_2023,pathogen_group,mean_death_rate_per_100000,Share
+Double-high,Classic child pneumonia pathogens,15.32,53.1%
+Double-high,Other bacterial pathogens,3.2,11.1%
+Double-high,Viral pathogens,2.62,9.1%
+Double-high,Gram-negative / healthcare-associated pathogens,2.4,8.3%
+Structural high,Classic child pneumonia pathogens,26.21,51.9%
+Structural high,Viral pathogens,6.38,12.6%
+Structural high,Other bacterial pathogens,4.65,9.2%
+Structural high,Gram-negative / healthcare-associated pathogens,4.11,8.1%
+Excess-only,Classic child pneumonia pathogens,4.39,45.9%
+Excess-only,Viral pathogens,1.54,16.1%
+Excess-only,Other bacterial pathogens,1.26,13.2%
+Excess-only,Gram-negative / healthcare-associated pathogens,0.7,7.3%
+Neither,Classic child pneumonia pathogens,5.02,45.3%
+Neither,Viral pathogens,1.78,16.1%
+Neither,Other bacterial pathogens,1.33,12.0%
+Neither,Gram-negative / healthcare-associated pathogens,0.88,8.0%

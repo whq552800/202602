@@ -1,0 +1,33 @@
+﻿state_2023,state_2023_label,rei_name,mean_death_rate,median_death_rate,n_locations
+Excess-only,Excess-only,Streptococcus pneumoniae,7.954526970240943,3.478153084977455,45
+Excess-only,Excess-only,Klebsiella pneumoniae,2.77207319920688,1.3414589438837503,45
+Excess-only,Excess-only,Staphylococcus aureus,2.1516023378538303,1.1567571927859026,45
+Excess-only,Excess-only,Pseudomonas aeruginosa,2.0486981930470303,1.000906888150794,45
+Excess-only,Excess-only,Respiratory syncytial virus,1.690418950884733,0.7027462563148218,45
+Excess-only,Excess-only,Escherichia coli,1.637599334661718,0.8148348559391296,45
+Excess-only,Excess-only,Influenza,1.389295234206589,0.5449763914693934,45
+Excess-only,Excess-only,Group A Streptococcus,1.2723340289616114,0.673294199355657,45
+Double-high,Double-high,Streptococcus pneumoniae,28.39505056172181,24.59342493626756,23
+Double-high,Double-high,Klebsiella pneumoniae,10.504509033773433,8.102048873339093,23
+Double-high,Double-high,Pseudomonas aeruginosa,6.870830327902572,5.386607445757612,23
+Double-high,Double-high,Staphylococcus aureus,5.176169309782712,4.210278716880104,23
+Double-high,Double-high,Escherichia coli,4.91484847430412,4.104200255667307,23
+Double-high,Double-high,"Other Mycobacterium species (non-TB, non-Leprosy)",3.6498837909773294,3.0201474923432787,23
+Double-high,Double-high,Mycoplasma,3.3873895100232265,2.764178316047829,23
+Double-high,Double-high,Group A Streptococcus,3.093981382533604,2.531178482654839,23
+Structural high,Structural high,Streptococcus pneumoniae,48.84371375050006,38.7089700093834,45
+Structural high,Structural high,Klebsiella pneumoniae,19.30321970057129,18.31318790967316,45
+Structural high,Structural high,Pseudomonas aeruginosa,11.42944091796364,11.26021264929922,45
+Structural high,Structural high,Escherichia coli,7.77309425720147,7.735585835190109,45
+Structural high,Structural high,Staphylococcus aureus,7.1257325959468325,7.029663321474572,45
+Structural high,Structural high,Respiratory syncytial virus,6.555395703190469,5.3918735078142,45
+Structural high,Structural high,"Other Mycobacterium species (non-TB, non-Leprosy)",6.363037431142354,6.38208755427868,45
+Structural high,Structural high,Influenza,6.204251192876817,4.611161321351292,45
+Neither,Neither,Streptococcus pneumoniae,9.151190498519972,3.551280403634104,90
+Neither,Neither,Klebsiella pneumoniae,3.775347801213003,1.3830415120339197,90
+Neither,Neither,Pseudomonas aeruginosa,2.553720616439935,0.9834084882209984,90
+Neither,Neither,Staphylococcus aureus,2.2136830723552863,1.2456008022590752,90
+Neither,Neither,Escherichia coli,1.946336481617932,0.9133723918354464,90
+Neither,Neither,Respiratory syncytial virus,1.920998494744231,0.4895458451077484,90
+Neither,Neither,Influenza,1.644787071821183,0.3459904019537987,90
+Neither,Neither,"Other Mycobacterium species (non-TB, non-Leprosy)",1.4473179137200936,0.6228949691400367,90

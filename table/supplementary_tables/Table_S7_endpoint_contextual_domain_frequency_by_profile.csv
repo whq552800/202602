@@ -1,0 +1,25 @@
+﻿profile_2023,domain,number_marked,number_in_profile,percent_marked
+Double-high,Ambient PM2.5,6,23,26.08695652173913
+Double-high,Climate/transmission,11,23,47.82608695652174
+Double-high,HIV/TB,7,23,30.434782608695656
+Double-high,Health resources,8,23,34.78260869565217
+Double-high,Household energy/HAP,6,23,26.08695652173913
+Double-high,Immunisation/UHC,3,23,13.043478260869565
+Double-high,Nutrition,0,23,0.0
+Double-high,WASH,5,23,21.73913043478261
+Excess-only,Ambient PM2.5,11,45,24.444444444444443
+Excess-only,Climate/transmission,17,45,37.77777777777778
+Excess-only,HIV/TB,11,45,24.444444444444443
+Excess-only,Health resources,22,45,48.888888888888886
+Excess-only,Household energy/HAP,9,45,20.0
+Excess-only,Immunisation/UHC,10,45,22.22222222222222
+Excess-only,Nutrition,3,45,6.666666666666667
+Excess-only,WASH,11,45,24.444444444444443
+Structural high,Ambient PM2.5,12,45,26.666666666666668
+Structural high,Climate/transmission,13,45,28.888888888888886
+Structural high,HIV/TB,7,45,15.555555555555555
+Structural high,Health resources,17,45,37.77777777777778
+Structural high,Household energy/HAP,18,45,40.0
+Structural high,Immunisation/UHC,17,45,37.77777777777778
+Structural high,Nutrition,1,45,2.2222222222222223
+Structural high,WASH,16,45,35.55555555555556
